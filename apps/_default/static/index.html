@@ -223,7 +223,7 @@ def index():
 db.define_table(
     "thing",
     Field("name", requires=IS_NOT_EMPTY()),
-    Field("image", "upload", download_url = lambda fn: URL(f"download/{fn}"))
+    Field("image", "upload", download_url = lambda fn: URL(f"download/{fn}")),
     auth.signature)
 </code></pre>
 
