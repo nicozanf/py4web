@@ -377,6 +377,23 @@ You can do it in two ways:
    .. image:: images/dashboard_new_app.png
 
 
+Importing an app
+----------------
+
+You can easily use the Dashboard in order to import a whole app!
+
+-  From internet: select the button ``Create/Upload App`` under the "Installed Applications"
+   upper section (see the previous screenshot). Give the new app a name, select "clone
+   from web (git or zip)", finally insert the URL pointing to the GIT or ZIP file
+
+-  From a local ZIP file: select the button ``Create/Upload App`` under the "Installed Applications"
+   upper section (see the previous screenshot). Give the new app a name, select "Upload"
+   and press the "Browse..." button
+ 
+
+You can use this simple procedure for importing the :ref:``Ready-to-use py4web apps`` shown on Chapter 2,
+or any other py4web apps.
+
 
 Watch for files change
 ----------------------

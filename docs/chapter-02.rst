@@ -7,6 +7,32 @@ jump frequently (without being lost!) from python to HTML to javascript to css a
 But don't be scared, in this manual we'll assist you side by side in this journey. And there are many other valuable resources that we're going to show
 you.
 
+Ready-to-use py4web apps
+========================
+
+First, we're glad to show you the public ready-to-use apps. This showcase is mainly intended for exhibiting py4web as a simple, fast and powerful
+framework, but the apps listed can also as be used for learning the py4web itself.
+You can easily import them from the Dashboard, see :ref:``Importing an app`` on the Dashboard chapter.
+
+ -  the integrated apps: fadebook (a Facebook-like app, on http://127.0.0.1:8000/fadebook)
+
+      .. image:: images/apps-fadebook.png
+
+ -  and todo (a to-do app, on http://127.0.0.1:8000/todo)
+
+      .. image:: images/apps-todo.png
+
+ -  py4web-blog : https://github.com/agavgavi/py4web-blog-app.git = the py4web blog app by Andrew Gavgavian, which uses py4web to
+    replicate the famous Corey Schafer’s tutorial series on creating a blog app in Django. Requires the "Pillow" python module installed.
+    PROBLEM: change L13 on common.py "from py4web.utils.tags import Tags" --> "from pydal.tools.tags import Tags"
+    PROBLEM: 
+
+
+
+southbreeze: https://github.com/jpsteil/southbreeze.git = the South Breeze Enterprises demo app by Jim Steil. It is built around the structure of the Microsoft Northwind database, but converted to SQLite (already listed on https://py4web.com/_documentation/static/en/chapter-02.html#tutorials-and-video)
+vue3pyj : https://github.com/valq7711/vue3pyj.git = WebIDE for py4web by Val K, similar to the official dashboard but with an excellent web editor - it uses the Vue framework
+
+
 
 Resources
 =========
@@ -15,7 +41,7 @@ This manual
 -----------
 
 This manual is the Reference Manual for py4web. It's available online at https://py4web.com/_documentation/static/index.html, where you'll also find the 
-PDF and EBOOK version, in multiple languages. It written in RestructuredText and generated using Sphinx.
+PDF and EBOOK version, in multiple languages. It's written in RestructuredText (the sources are on the same GitHub repository) and generated using Sphinx.
 
 
 The Google group
@@ -40,8 +66,6 @@ There are many tutorials and videos available. Here are some of them:
 - the `Learn Py4Web site <https://learn-py4web.github.io>`__ by Luca de Alfaro (with lots of excellent training videos)
 - the free video `course 2020 by Luca de Alfaro <https://sites.google.com/a/ucsc.edu/luca/classes/cmps-183-hypermedia-and-the-web/cse-183-spring-2020>`__
   at UC Santa Cruz
-- the `py4web blog app <https://github.com/agavgavi/py4web-blog-app.git>`__ by Andrew Gavgavian,  which uses py4web to replicate the famous Corey
-  Schafer's tutorial series on creating a blog app in Django
 - the `South Breeze Enterprises demo app <https://github.com/jpsteil/southbreeze>`__ by `Jim Steil <https://github.com/jpsteil>`__.  It is built around
   the structure of the Microsoft Northwind database,
   but converted to SQLite. You can view the final result online `here <https://southbreeze.pythonbench.com>`__
