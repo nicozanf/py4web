@@ -24,9 +24,8 @@ You can easily import them from the Dashboard, see :ref:``Importing an app`` on 
 
  -  py4web-blog : https://github.com/agavgavi/py4web-blog-app.git = the py4web blog app by Andrew Gavgavian, which uses py4web to
     replicate the famous Corey Schafer’s tutorial series on creating a blog app in Django. Requires the "Pillow" python module installed.
-    PROBLEM: change L13 on common.py "from py4web.utils.tags import Tags" --> "from pydal.tools.tags import Tags"
-    PROBLEM: 
 
+      .. image:: images/apps-blog.png
 
 
 southbreeze: https://github.com/jpsteil/southbreeze.git = the South Breeze Enterprises demo app by Jim Steil. It is built around the structure of the Microsoft Northwind database, but converted to SQLite (already listed on https://py4web.com/_documentation/static/en/chapter-02.html#tutorials-and-video)
