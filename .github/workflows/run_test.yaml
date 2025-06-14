@@ -24,4 +24,4 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v5
       - name: Test
-        run: make test || true
+        run: make test
